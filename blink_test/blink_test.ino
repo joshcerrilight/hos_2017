@@ -6,7 +6,7 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  int  numBlinks = 666;
+  int  numBlinks = 36;
   for(int i=0; i<numBlinks; i++) {
     for(int j=0; j<i; j++) {
       digitalWrite(0, HIGH);
