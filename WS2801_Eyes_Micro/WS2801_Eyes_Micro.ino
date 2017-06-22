@@ -13,7 +13,7 @@ uint8_t clockPin = 3;    // Green wire on Adafruit Pixels
 
 // Set the first variable to the NUMBER of pixels in a row and
 // the second value to number of pixels in a column.
-Adafruit_WS2801 strip = Adafruit_WS2801((uint16_t)1, (uint16_t)21, dataPin, clockPin);
+Adafruit_WS2801 strip = Adafruit_WS2801((uint8_t)1, (uint8_t)21, dataPin, clockPin);
 
 void setup() {
     
@@ -29,8 +29,8 @@ void loop() {
   drawX(21, 50);
 }
 
-void drawX(uint8_t w, uint16_t wait) {
-  uint16_t x,y,z;
+void drawX(uint8_t w, uint8_t wait) {
+  uint8_t x,y,z;
 //  for (red=0; red=random(120,250));
   for (x=0; x<w; x=random(0,21)) {
     if (x%2 == 1)
