@@ -1,3 +1,5 @@
+//Board setup for digispark at digistump.com/wiki/digispark/tutorials/connecting//
+
 void setup() {
   // put your setup code here, to run once:
   pinMode(0, OUTPUT);
