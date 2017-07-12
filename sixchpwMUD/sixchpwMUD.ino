@@ -27,7 +27,7 @@ int ch2Intensity=0
 int ch3Intensity=0
 int ch4Intensity=0
 int ch5Intensity=0
-int ch5Intensity=0
+int ch6Intensity=0
 
 void loop(){
 //Read/Write Channel 1 Intensity
