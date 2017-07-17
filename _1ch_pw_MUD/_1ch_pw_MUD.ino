@@ -4,8 +4,8 @@ Serial.begin(9600);
 }
 
 //Assign those pins
-const int dim1=A0;
-const int ch1=3;
+const int dim1=5;
+const int ch1=0;
 
 
 int dim1Intensity = 0;
