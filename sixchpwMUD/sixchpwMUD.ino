@@ -76,7 +76,7 @@ analogWrite(ch6,ch6Intensity);
 Serial.println("CHannel 6 dim, int");
 Serial.println(dim6Intensity, ch6Intensity);
 
-//2 millisecond delay to settle A>D converter
-delay(2);
+//30 millisecond delay to settle A>D converter
+delay(30);
 
 }
