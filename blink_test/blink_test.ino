@@ -1,3 +1,5 @@
+//Board setup for digispark at digistump.com/wiki/digispark/tutorials/connecting
+//Windows drivers can be found at 'https://github.com/digistump/DigistumpArduino/releases//
 void setup() {
   // put your setup code here, to run once:
   pinMode(0, OUTPUT);
@@ -19,3 +21,4 @@ void loop() {
   delay(1000);
   }
 }
+

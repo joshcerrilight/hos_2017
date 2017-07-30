@@ -16,28 +16,17 @@ void setup() {
 
 void loop() {
   
-  colorWipe(Color(255, 0, 0));
+  colorWipe(30);
 
 }
 
-void colorWipe(uint32_t c) {
+void colorWipe(uint8_t wait) {
   int i;
   
   for (i=0; i < strip.numPixels(); i=random(0,21)) {
       strip.setPixelColor(i, random(120,255),random(0,80),0);
       strip.show();
-      delay(30);
+      delay(wait);
   }
-}
-
-uint32_t Color(byte r, byte g, byte b)
-{
-  uint32_t c;
-  c = r;
-  c <<= 8;
-  c |= g;
-  c <<= 8;
-  c |= b;
-  return c;
 }
 
