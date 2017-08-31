@@ -5,7 +5,8 @@ void setup(){
 
 //Assign those pins
 const int dim1=A1;
-const int ch1=4;
+const int ch1=4
+;
 
 
 int dim1Intensity = 0;
